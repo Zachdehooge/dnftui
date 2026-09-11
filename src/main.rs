@@ -1,8 +1,8 @@
-fn searchDNF(repo: &str) -> String{
+fn search_dnf(repo: &str) -> String{
     let command = format!("dnf search {repo}");
     command
 }
 
 fn main() {
-    println!("{}", searchDNF("vscode"));
+    println!("{}", search_dnf("vscode"));
 }
